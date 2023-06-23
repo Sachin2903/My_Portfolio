@@ -9,6 +9,8 @@ import sass from "../../assests/tech/sass.png";
 
 import mui from "../../assests/tech/mui.png";
 
+import {AiFillGithub,AiFillLinkedin} from "react-icons/ai"
+
 
 
 export function HeroPage() {
@@ -19,6 +21,8 @@ export function HeroPage() {
                     <div className={styles.heroLeft}>
                         <h2 className={styles.leftHeading}>Front-End <span className={styles.reactName}>React</span>Developer</h2>
                        <span>
+                        <AiFillGithub/>
+                        <AiFillLinkedin/>
 
                        </span>
                        <button>Download Resume</button>
