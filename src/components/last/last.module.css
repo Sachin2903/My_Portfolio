@@ -1,0 +1,64 @@
+.connectMain{
+    width: 100vw;
+    min-height: 90vh;
+    background-color: rgb(239, 236, 236);
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.connectTopText{
+    color: red;
+}
+.socialDiv{
+   margin: 15px 0px;
+    width: 450px;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link{
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 150px;
+    height: 35px;
+    box-shadow: 1px 1px 0px black;
+    background-color:rgb(90, 131, 255);
+    color: white;
+}
+.git{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 150px;
+    height: 35px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 0px rgb(58, 41, 255);
+
+}
+.git:hover,.link:hover{
+    transform: scale(0.96);
+}
+.bottomBox{
+    border: 1px solid black;
+    width: 450px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.inputName ,.inputNumber,.inputEmail{
+    width: 190px;
+    
+    height: 35px;
+
+}
