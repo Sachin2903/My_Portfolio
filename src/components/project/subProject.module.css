@@ -103,3 +103,17 @@
     transform: scale(1.2);
     color: white;
 }
+@media (width<=642px) {
+    .minProjectfalse{
+        transform: translateX(0px);
+        padding: 0;
+        min-width: 370px;
+        min-height: 350px;
+    }
+    .minProject{
+        transform: translateX(0px);
+        padding: 0;
+        min-width: 370px;
+        min-height: 350px;
+    }
+}

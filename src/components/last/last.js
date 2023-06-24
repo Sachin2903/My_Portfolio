@@ -26,8 +26,8 @@ input4.current.value=""
                 <h2>Let's <span className={styles.connectTopText}>Connect</span> With <span className={styles.connectTopText}>Me</span></h2>
 
                 <div className={styles.socialDiv}>
-                    <a className={styles.link} href="https://www.linkedin.com/in/sachin-chaturvedi-403255225" target="_blank">LinkedIn</a>
-                    <a className={styles.git} href="https://github.com/Sachin2903" target="_blank">Github</a>
+                    <a rel="noreferrer" className={styles.link} href="https://www.linkedin.com/in/sachin-chaturvedi-403255225" target="_blank">LinkedIn</a>
+                    <a rel="noreferrer" className={styles.git} href="https://github.com/Sachin2903" target="_blank">Github</a>
 
                 </div>
                 <div className={styles.bottomBox}>
