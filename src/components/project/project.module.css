@@ -1,0 +1,23 @@
+.projectsec{
+    padding: 80px;
+    padding-bottom:0 ;
+    width: 100vw;
+    min-height: 100vh;
+   background-color: rgb(239, 236, 236); ;
+
+}
+.projectsec :nth-child(2){
+    color: rgb(3, 231, 86);
+    font-weight: bold;
+    margin-bottom:10px ;
+}
+.projectsec :nth-child(1){
+    font-weight: bold;
+    margin-bottom:10px ;
+
+}
+.projectsec :nth-child(3){
+    font-weight: 500;
+    margin-bottom:10px ;
+
+}

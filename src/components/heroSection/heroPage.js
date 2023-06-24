@@ -6,8 +6,9 @@ import css from "../../assests/tech/css3.png";
 import javasc from "../../assests/tech/javascript.png";
 import react from "../../assests/tech/react.png";
 import sass from "../../assests/tech/sass.png";
+import regex from "../../assests/tech/regex.png";
 
-import mui from "../../assests/tech/mui.png";
+
 
 import {AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 
@@ -35,7 +36,7 @@ export function HeroPage() {
                         <img alt="loading" src={javasc} className={styles.techLogo} />
                         <img alt="loading" src={sass} className={styles.techLogo} />
                         <img alt="loading" src={react} className={styles.techLogo} />
-                        <img alt="loading" src={mui} className={styles.techLogo} />
+                        <img alt="loading" src={regex} className={styles.techLogo} />
                     </div>
                 </div>
 

@@ -11,9 +11,9 @@ export function Navbar(){
             <p  className={styles.navtext}>Sachin  Chaturvedi</p>
             <ul className={toggle?styles.navlist:`${styles.navlist} ${styles.listActive}`} >
                 <li><a href="#home">Home</a></li>
-                <li><a href="#home">About</a></li>
-                <li><a href="#home">Projects</a></li>
-                <li><a href="#home">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             {
                 toggle?<AiOutlineMenu onClick={()=>setToogle(!toggle)} className={styles.menu}/>:<RxCross2 onClick={()=>setToogle(!toggle)} className={styles.menu}/>
