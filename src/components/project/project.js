@@ -21,7 +21,7 @@ export function Project(){
    
     return(
         <Fragment>
-            <div className={styles.projectsec}>
+            <div id="project" className={styles.projectsec}>
                 <img className={styles.desiLogo} alt="Loading" src={desi}/>
               <p  className={styles.propp} >MY WORK</p>
               <h1 className={styles.prohh}>Projects.</h1>

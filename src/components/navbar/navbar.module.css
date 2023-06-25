@@ -11,6 +11,26 @@
     padding: 0 29px;
     box-shadow: 1px 1px 3px black;
 }
+.linkGit{
+    position: absolute;
+    left: 25px;
+    top:30vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 35px;
+    height: 30vh;
+    color: rgb(65, 4, 209);
+
+}
+.gitnav{
+    color: black;
+}
+.linkGit a{
+  
+    cursor: pointer;
+    
+}
 .navtext{
     position: relative;
     z-index: 999999;
