@@ -10,7 +10,7 @@ import regex from "../../assests/tech/regex.png";
 
 import b from "../../assests/design/b.png";
 
-// import resumePDF from './resume.pdf';
+import resumePDF from '../../assests/design/resume.pdf';
 
 
 import { useState } from "react";
@@ -40,10 +40,10 @@ export function HeroPage() {
      },)
 
      function handleDownloadResume() {
-        // const link = document.createElement('a');
-        // link.href = resumePDF;
-        // link.download = 'resume.pdf';
-        // link.click();
+        const link = document.createElement('a');
+        link.href = resumePDF;
+        link.download = 'Sachin_Chaturvedi_Resume.pdf';
+        link.click();
       }
 
 

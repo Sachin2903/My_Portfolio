@@ -37,10 +37,9 @@ top:20px;
     position: relative;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 55px;
     align-items: center;
     width: 60%;
-   
     height: 70%;
     float: left;
     flex-direction: column;
