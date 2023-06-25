@@ -116,6 +116,7 @@ top:20px;
     border-bottom:4px solid rgb(255, 235, 10);
 }
 .downloadbtn{
+    cursor: pointer;
     width: 150px;
     height: 45px;
     color: white;

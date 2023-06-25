@@ -79,8 +79,8 @@ export const data=[{
     src2:p4e2,
     src3:p4e3,
     srcArray:[true,true,true], 
-    live:"https://car-rental-apni-car-samgho.netlify.app/",
-    git:"https://github.com/Sachin2903/Car-Rental_Using_React.git"
+    live:"https://happy-holiday-you-choose-we-plan.netlify.app/",
+    git:"https://github.com/Sachin2903/Scrap_Bazar_React_Project/tree/project_2_Happy_holiday"
 },
 {
     id:uuid(),
@@ -92,7 +92,7 @@ export const data=[{
     src2:p5e2,
     src3:p5e3,
     srcArray:[true,true,true], 
-    live:"https://649747973a5864123e82c3bf--gentle-brioche-3ccebc.netlify.app/",
+    live:"https://twitter-clone-sachin.netlify.app/",
     git:"https://github.com/Sachin2903/Twitter_clone"
 },
 {
