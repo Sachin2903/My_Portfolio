@@ -9,10 +9,12 @@
     padding-top: 60px;
     position: relative;
     background-color: rgb(239, 236, 236);
+    
 }
 .heroPageDesign{
 top:20px;
-    width: 100vw;
+left: 0;
+    width: 50vw;
     position:absolute;
     
 }
@@ -27,30 +29,29 @@ top:20px;
 .innerDiv {
     position: relative;
     min-height: 100%;
-    height: 100%;
+
     z-index: 99;
-    width: 650px;
+
+    width: 750px;
   
 }
 
 .heroLeft {
+    padding: 25px;
     position: relative;
     display: flex;
     justify-content: center;
-    gap: 55px;
+    gap: 20px;
     align-items: center;
     width: 60%;
-    height: 70%;
+    min-height: 80%;
     float: left;
     flex-direction: column;
 }
-.stateText{
-    top:20%;
-    position: absolute;
-}
+
 
 .techStach {
-    margin-bottom: 35px;
+    
     position: absolute;
     bottom: 0;
     display: flex;
@@ -58,6 +59,7 @@ top:20px;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    padding: 20px;
     min-height: 120px;
     flex-wrap: wrap;
 
@@ -125,6 +127,10 @@ top:20px;
     border: 0;
     box-shadow: 1px 1px 1px black;
 }
+.nameHead{
+    font-size: 28px;
+
+}
 .downloadbtn:hover{
     transform: scale(0.98);
 }
@@ -144,14 +150,17 @@ top:20px;
     }
     
 }
-@media (width<=631px) {
+@media (width<=822px) {
     .heroImg {
         display: none;
     }
     .heroLeft {
         width: 100vw;
+        padding-left: 70px;
+        
     }
     .innerDiv {
         width: 100vw;
+       
     }
 }
