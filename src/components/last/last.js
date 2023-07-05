@@ -53,7 +53,7 @@ function deleteInputFun(){
                     <button onClick={deleteInputFun}className={styles.btn}>Send Message</button>
                      
                     <p className={styles.ptext}ref={ptag}>Message Successfully Send</p>
-                    <p ref={pleaseTag}className={styles.pleasetext}>Please Check Detailsa Once</p>
+                    <p ref={pleaseTag}className={styles.pleasetext}>Please Check Details Once</p>
                 </div>
             </div>
         </Fragment>
