@@ -2,7 +2,7 @@
  
     padding: 59px;
     width: 100vw;
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: rgb(239, 236, 236);
 }
 .waterDiv{
@@ -31,7 +31,7 @@
 }
 .techTopDiv{
  
-    margin: 50px 15px ;
+    margin: 20px 15px ;
     width: 100%;
   min-height: 150px;
     gap:30px;

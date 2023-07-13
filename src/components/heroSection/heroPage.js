@@ -8,6 +8,7 @@ import react from "../../assests/tech/react.png";
 import sass from "../../assests/tech/sass.png";
 import regex from "../../assests/tech/regex.png";
 import ts from "../../assests/tech/type.png";
+import next from "../../assests/tech/next.png";
 
 import b from "../../assests/design/b.png";
 
@@ -66,10 +67,12 @@ export function HeroPage() {
                         <p className={styles.techText}>Tech Stack</p>
                         <img alt="loading" src={html} className={styles.techLogo} />
                         <img alt="loading" src={css} className={styles.techLogo} />
+                        <img alt="loading" src={sass} className={styles.techLogo} />
                         <img alt="loading" src={javasc} className={styles.techLogo} />
                         <img alt="loading" src={ts} className={styles.techLogo} />
-                        <img alt="loading" src={sass} className={styles.techLogo} />
+                        
                         <img alt="loading" src={react} className={styles.techLogo} />
+                        <img alt="loading" src={next} className={styles.techLogo} />
                         <img alt="loading" src={regex} className={styles.techLogo} />
                     </div>
                 </div>
