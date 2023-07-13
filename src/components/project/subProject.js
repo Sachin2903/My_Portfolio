@@ -26,8 +26,8 @@ export function SubProject({tog,data}) {
                    <h3 className={styles.headbottom}>{data.topic}</h3>
                     <p className={styles.textbottom}>{data.detail}</p>
                     <div className={styles.logo}>
-                    <a href={data.live} rel="noreferrer"  target="_blank"><AiFillEye/></a>
-                    <a href={data.git}  rel="noreferrer" target="_blank"><AiFillGithub/></a>
+                    <a className={styles.eye} href={data.live} rel="noreferrer"  target="_blank"><AiFillEye/></a>
+                    <a className={styles.git} href={data.git}  rel="noreferrer" target="_blank"><AiFillGithub/></a>
                     </div>
 
                 </div>

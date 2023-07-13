@@ -7,6 +7,7 @@ import javasc from "../../assests/tech/javascript.png";
 import react from "../../assests/tech/react.png";
 import sass from "../../assests/tech/sass.png";
 import regex from "../../assests/tech/regex.png";
+import ts from "../../assests/tech/type.png";
 
 import b from "../../assests/design/b.png";
 
@@ -53,9 +54,11 @@ export function HeroPage() {
                 <img src={b}alt="loading" className={styles.heroPageDesign}/>
                 <div className={styles.innerDiv}>
                     <div className={styles.heroLeft}>
+                        <h1 className={styles.nameHead}>Hey, I'm Sachin Chaturvedi</h1>
                         <h2 className={styles.stateText}>{aniText}<p className={styles.line}></p></h2>
+                        
                         <h3 className={styles.leftHeading}>I bring <span className={styles.reactName}> ideas</span> to web.</h3>
-                      
+                        <h4>I am a passionate Frontend Developer who focuses on writing clean and user-friendly applications using react and some other cool libraries</h4>
                        <button onClick={handleDownloadResume} className={styles.downloadbtn}>Download Resume</button>
                     </div>
                     <img alt="loading" className={styles.heroImg} slt="loading" src={logo} />
@@ -64,6 +67,7 @@ export function HeroPage() {
                         <img alt="loading" src={html} className={styles.techLogo} />
                         <img alt="loading" src={css} className={styles.techLogo} />
                         <img alt="loading" src={javasc} className={styles.techLogo} />
+                        <img alt="loading" src={ts} className={styles.techLogo} />
                         <img alt="loading" src={sass} className={styles.techLogo} />
                         <img alt="loading" src={react} className={styles.techLogo} />
                         <img alt="loading" src={regex} className={styles.techLogo} />
