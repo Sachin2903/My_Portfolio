@@ -11,8 +11,9 @@ import redux from "../../assests/tech/redux.png";
 
 import git from "../../assests/tech/tools/git.png";
 import vvs from "../../assests/tech/tools/vs.png";
+import ts from "../../assests/tech/type.png";
 export function Tech() {
-    const tech = [html, css, javasc, react, sass, regex, mui, redux];
+    const tech = [html, css, javasc,ts, react, sass, regex, mui, redux];
     const tool=[vvs,git]
     return (
         <Fragment>
