@@ -1,10 +1,11 @@
 .minProject{
+  
     transform: translateX(45px);
     margin-top: 20px;
    border-radius: 9px;
- min-width: 550px;
- width: 550px;
- height: 350px;
+ min-width: 520px;
+ width: 520px;
+ height: 320px;
  padding: 10px;
  display: flex;
  justify-content: center;
@@ -17,9 +18,9 @@
     transform: translateX(-45px);
     margin-top: 20px;
    border-radius: 9px;
- min-width: 550px;
- width: 550px;
- height: 350px;
+ min-width: 520px;
+ width: 520px;
+ height: 320px;
  padding: 10px;
  display: flex;
  justify-content: center;
@@ -57,7 +58,7 @@
    
     width: 100%;
    margin-top: 19px;
-    height: 65px;
+    height: 55px;
 }
 .extraImgBottom{
     width:65px;
@@ -99,12 +100,26 @@
     font-size: 25px;
     color:black;
 }
+.eye{
+    border-radius: 8px;
+    width: 55px;
+    background-color: antiquewhite;
+    border: 1px solid white;
+}
+.git{
+    border-radius: 8px;
+
+    background-color: antiquewhite;
+    width: 55px;
+    border: 1px solid white;
+
+}
 .logo a{
     color: black;
 }
 .logo a:hover{
-    transform: scale(1.2);
-    color: white;
+    transform: scale(0.92);
+  
 }
 @media (width<=642px) {
     .minProjectfalse{
