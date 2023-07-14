@@ -19,9 +19,9 @@
     color: black;
 }
 .aboutInner{
-    padding: 30px;
+    padding: 20px;
     margin-top: 35px;
-    width: 450px;
+    width: 370px;
     height: 350px;
     border: 0;
     border-radius:6px;
@@ -37,4 +37,11 @@
     height: auto;
     text-align: center;
     word-wrap: break-word;
+}
+@media (width>=550px) {
+
+    .aboutInner{
+        width: 450px;
+        padding: 30px;
+    }
 }

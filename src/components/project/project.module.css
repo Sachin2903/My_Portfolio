@@ -57,3 +57,10 @@
 .seeMore:hover{
     transform: translateY(2px);
 }
+@media (width<=550px) {
+    .proppp{
+        min-width:365px;
+        margin: 0;
+    }
+    
+}

@@ -105,6 +105,9 @@
         height: 100vh;
 
     }
+    .linkGit{
+        display: none;
+    }
     .listActive{
         right:0%;
         
