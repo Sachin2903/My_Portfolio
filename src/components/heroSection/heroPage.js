@@ -72,7 +72,7 @@ export function HeroPage() {
                         <img alt="loading" src={ts} className={styles.techLogo} />
                         
                         <img alt="loading" src={react} className={styles.techLogo} />
-                        <img alt="loading" src={next} className={styles.techLogo} />
+                        {/* <img alt="loading" src={next} className={styles.techLogo} /> */}
                         <img alt="loading" src={regex} className={styles.techLogo} />
                     </div>
                 </div>
