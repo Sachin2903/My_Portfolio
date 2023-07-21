@@ -72,17 +72,15 @@ left: 0;
     animation: rotate 2s ease-in-out infinite;
 }
 
-.techStach :nth-child(2) {
-    animation-delay: 0.3s;
+.techStach :nth-child(even) {
+    animation-delay: 0.4s;
 }
 
-.techStach :nth-child(4) {
-    animation-delay: 0.6s;
+.techStach :nth-child(odd) {
+    animation-delay: 0.8s;
 }
 
-.techStach :nth-child(6) {
-    animation-delay: 0.9s;
-}
+
 
 .techText {
     padding: 10px;
@@ -138,7 +136,7 @@ left: 0;
   margin-left: 2px;
     display: inline;
     border-right: 3px solid red;
-    animation: opa 700ms ease-in-out infinite;
+    animation: opa 500ms ease-in-out infinite;
 }
 @keyframes opa {
     0%{

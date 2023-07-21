@@ -9,6 +9,8 @@ import sass from "../../assests/tech/sass.png";
 import regex from "../../assests/tech/regex.png";
 import ts from "../../assests/tech/type.png";
 import next from "../../assests/tech/next.png";
+import mongo from "../../assests/tech/mongodb.png";
+import node from "../../assests/tech/node.png";
 
 import b from "../../assests/design/b.png";
 
@@ -22,7 +24,7 @@ import { useRef } from "react";
 
 
 export function HeroPage() {
-    const array=["Engineer ","Front-End Developer ","Front-End React Developer "];
+    const array=["Engineer ","Full stack Developer","Front-End Developer ","Back-End Developer",];
     const [aniText,setAniText]=useState("Hello");
   const count=useRef(0);
   const len=useRef(0);
@@ -38,7 +40,7 @@ export function HeroPage() {
             len.current=len.current+1;
              return ()=>clearTimeout(id)
 
-        },700)
+        },500)
      },)
 
      function handleDownloadResume() {
@@ -72,6 +74,8 @@ export function HeroPage() {
                         <img alt="loading" src={ts} className={styles.techLogo} />
                         
                         <img alt="loading" src={react} className={styles.techLogo} />
+                        <img alt="loading" src={node} className={styles.techLogo} />
+                        <img alt="loading" src={mongo} className={styles.techLogo} />
                         {/* <img alt="loading" src={next} className={styles.techLogo} /> */}
                         <img alt="loading" src={regex} className={styles.techLogo} />
                     </div>
